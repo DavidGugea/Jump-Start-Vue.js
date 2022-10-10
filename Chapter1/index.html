@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js">
+    </script>
+</head>
+<body>
+    <div id="main">
+        <table>
+            <tr v-for="(employee, index) in sortedEmployees" :key="index">
+                <th>Avatar</th>
+                <th @click="sortBy = 'firstName'">First Name</th>
+                <th @click="sortBy = 'lastName'">Last Name</th>
+                <th @click="sortBy = 'email'">Email</th>
+                <th @click="sortBy = 'phone'">Phone</th>
+                <th @click="sortBy = 'department'">Department</th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
