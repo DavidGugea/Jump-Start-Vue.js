@@ -310,3 +310,7 @@ computed: {
 # 2. Vue Tooling
 
 \-
+
+# 3. Components
+
+\-
