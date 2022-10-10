@@ -318,3 +318,7 @@ computed: {
 # 4. The composition API
 
 \-
+
+# 5. Routing
+
+\-
