@@ -314,3 +314,7 @@ computed: {
 # 3. Components
 
 \-
+
+# 4. The composition API
+
+\-
