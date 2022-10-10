@@ -326,3 +326,7 @@ computed: {
 # 6. State Management
 
 \-
+
+# 7. Nuxt.js
+
+\-
