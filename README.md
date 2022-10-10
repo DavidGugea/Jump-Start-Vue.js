@@ -330,3 +330,7 @@ computed: {
 # 7. Nuxt.js
 
 \-
+
+# 8. Putting It All Together
+
+\-
